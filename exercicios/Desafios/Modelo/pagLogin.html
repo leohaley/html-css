@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css"> 
+</head>
+<body>
+    <main>
+        <div id="img1"><img src="imagens/img1.png" alt="Primeira imagem"></div>
+        <section id="login">
+
+            <div id="imagem">
+                <!-- Aqui vai a imagem nas CSS -->
+            </div>
+            <div id="formulario">
+                <h1>welcome!</h1>
+
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <label for="ilogin">USER:</label>
+                        <input type="email" name="login" id="ilogin" autocomplete="email" maxlength="30" required>
+                        
+                    </div><br>
+                    <div class="campo">
+                        <label for="isenha">PASSWORD:</label>
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" minlength="8" maxlength="20" required>
+                        
+                    </div><br>
+                    <input type="submit" value="Log in">
+                    <a href="#" class="botao">
+                        Forgot Password?
+                    </a>
+                    <a href="#" class="botao">
+                        Signup !
+                    </a>
+                </form>
+            </div>
+        </section>             
+    </main>
+    <footer>
+            <div id="img3">
+                <img src="imagens/img3.png" alt="img Dragon">
+            </div>
+    </footer>
+</body>
+</html>
